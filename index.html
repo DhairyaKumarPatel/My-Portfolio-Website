@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhairya's Porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Dhairya's Porfolio</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#certificates">certificates</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple">Dhairya</span>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"
+                        onclick="window.location.href='https://drive.google.com/uc?export=download&id=1ykD6F4R781SV2DVooVhY76kuyMpZnqiw'">Download
+                        Resume</button>
+                    <button class="btn" onclick="window.location.href='https://github.com/DhairyaKumarPatel'">Visit
+                        Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="./images/profile.png" alt="profile">
+            </div>
+        </section>
+        <hr>
+        <section id="about" class="aboutsection">
+            <div class="about">About</div>
+            <div>
+                My name is Dhairya, and I am a passionate web developer, security engineer, and ethical hacker. I thrive
+                on crafting intuitive and secure web solutions while protecting digital landscapes from ever-evolving
+                threats. With a deep commitment to innovation and security, I enjoy designing robust systems that
+                prioritize user experience and safeguard data integrity. Ethical hacking fuels my curiosity to identify
+                vulnerabilities and strengthen digital defenses, ensuring a safer online world for individuals and
+                organizations alike. Technology, problem-solving, and continuous learning are at the heart of everything
+                I do.
+            </div>
+        </section>
+        <hr>
+        <section id="projects" class="projectsection">
+            <div class="project">Featured Projects</div>
+            <div class="project-details">
+                <img src="./images/project1.png" alt="Project 1">
+                <div class="description">
+                    <h3>Intrusion Detection System</h3>
+                    <p>In this project, I have developed an Intrusion Detection System (IDS) tool using Snort, which
+                        effectively identifies potential intrusions and threats by analyzing network traffic. It ensures
+                        real-time threat detection and generates immediate alerts, helping administrators take quick
+                        preventive actions to safeguard the system.</p>
+                </div>
+            </div>
+            <div class="project-details">
+                <img src="./images/project2.png" alt="Project 2">
+                <div class="description">
+                    <h3>Nmap Scanner</h3>
+                    <p>I have developed an Nmap Scanner (network scanning tool) using a Python script, which allows
+                        users to easily scan a target device's network by providing the IP address and selecting from
+                        the available options. The tool is efficient and user-friendly, offering features like port
+                        detection and service enumeration for network analysis.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="certificates" class="certificatesection">
+            <div class="certificate">Featured Certificates</div>
+            <div class="frames">
+                <img src="./images/certificate1.jpg" alt="Certificate 1">
+                <img src="./images/certificate2.jpg" alt="Certificate 2">
+            </div>
+        </section>
+        <hr>
+        <section id="skills" class="skillsection">
+            <div class="skill">My Skills</div>
+            <div class="skills">
+                <div class="skill-details">
+                    <h3>Development Skills</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>React, Angular</li>
+                        <li>Node.js, Express.js</li>
+                        <li>Python, Django</li>
+                        <li>SQL, MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill-details">
+                    <h3>Cyber Security and Hacking Skills</h3>
+                    <ul>
+                        <li>Intrusion Detection Systems (IDS)</li>
+                        <li>Penetration Testing</li>
+                        <li>Vulnerability Assessment</li>
+                        <li>Network Security</li>
+                        <li>Ethical Hacking</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="contact">Contact Me</div>
+        <div>
+            <a href="https://www.linkedin.com/in/dhairya-kumar-patel-b2074828b/" target="_blank">
+                <img src="./images/linkedIn.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+            </a>
+            <a href="https://www.facebook.com/dhairya.dhairya.796/" target="_blank">
+                <img src="./images/facebook.png" alt="Facebook" style="width: 24px; height: 24px;">
+            </a>
+            <a href="https://www.instagram.com/dhairyakumarpatel/" target="_blank">
+                <img src="./images/Instagram.png" alt="Instagram" style="width: 24px; height: 24px;">
+            </a>
+            <a href="https://x.com/DhairyaKuPatel" target="_blank">
+                <img src="./images/twitter.png" alt="Twitter" style="width: 24px; height: 24px;">
+            </a>
+        </div>
+        <div>Copyright &#169; www.dhairyaportfolio.in | All Right Reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Security Engineer', 'Ethical Hacker'],
+            typeSpeed: 110,
+            loop: true,
+        });
+
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
